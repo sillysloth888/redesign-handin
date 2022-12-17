@@ -120,7 +120,7 @@ const App = () => {
           <p>Once I had created the visual style guide. I combined the guide with my wireframes to create <b>high-fidelity mockups</b> in Figma. I created mockups for each screen size so I would know what CSS media queries I would have to use to ensure the site felt great on every device.</p>
           <ImageSection 
             data={[{id: 5, path: desktopHifi}]}
-            margin={"-14"}
+            margin={"-26%"}
             width={"100%"}
             separate={false}
             frame={false}
