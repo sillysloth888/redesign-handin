@@ -4,7 +4,7 @@ import desktopWf from "./assets/troop/wireframes/desktop.svg"
 import tabletWf from  "./assets/troop/wireframes/tablet.svg"
 import mobileWf from  "./assets/troop/wireframes/mobile.svg"
 import styleGuideImg from "./assets/troop/style_guide.svg"
-import desktopHifi from "./assets/troop/hifi/desktop.svg"
+import desktopHifi from "./assets/troop/hifi/desktop.png"
 import tabletHifi from "./assets/troop/hifi/tablet.svg"
 import mobileHifi from "./assets/troop/hifi/mobile.svg"
 import siteGif from "./assets/troop/site.gif"
@@ -119,7 +119,7 @@ const App = () => {
           <h2 className="big-section-title">Mocking up the Redesigns</h2>
           <p>Once I had created the visual style guide. I combined the guide with my wireframes to create <b>high-fidelity mockups</b> in Figma. I created mockups for each screen size so I would know what CSS media queries I would have to use to ensure the site felt great on every device.</p>
           <ImageSection 
-            data={[{id: 5, path: desktopHifi, caption:"Desktop prototype (may take a second to load)."}]}
+            data={[{id: 5, path: desktopHifi}]}
             margin={"-26%"}
             width={"100%"}
             separate={false}
