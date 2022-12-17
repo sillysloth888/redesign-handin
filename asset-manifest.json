@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/redesign-handin/static/css/main.bcc25ce8.css",
-    "main.js": "/redesign-handin/static/js/main.f1919f1d.js",
+    "main.js": "/redesign-handin/static/js/main.feab0fc3.js",
     "static/media/mobile.svg": "/redesign-handin/static/media/mobile.043abb5bf8db3b0d542fec5a0c1f61d3.svg",
     "static/media/redesign_long.png": "/redesign-handin/static/media/redesign_long.97388b45defe71151c5a.png",
     "static/media/desktop.png": "/redesign-handin/static/media/desktop.3154189812676a37a4db.png",
@@ -15,10 +15,10 @@
     "static/media/style_guide.svg": "/redesign-handin/static/media/style_guide.e791163fe172599565ff2bab6db1c5dc.svg",
     "index.html": "/redesign-handin/index.html",
     "main.bcc25ce8.css.map": "/redesign-handin/static/css/main.bcc25ce8.css.map",
-    "main.f1919f1d.js.map": "/redesign-handin/static/js/main.f1919f1d.js.map"
+    "main.feab0fc3.js.map": "/redesign-handin/static/js/main.feab0fc3.js.map"
   },
   "entrypoints": [
     "static/css/main.bcc25ce8.css",
-    "static/js/main.f1919f1d.js"
+    "static/js/main.feab0fc3.js"
   ]
 }
