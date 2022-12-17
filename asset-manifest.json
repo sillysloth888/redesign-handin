@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/redesign-handin/static/css/main.073c9b0a.css",
-    "main.js": "/redesign-handin/static/js/main.3482404f.js",
-    "static/media/logo.svg": "/redesign-handin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/redesign-handin/static/css/main.bcc25ce8.css",
+    "main.js": "/redesign-handin/static/js/main.f1919f1d.js",
+    "static/media/mobile.svg": "/redesign-handin/static/media/mobile.043abb5bf8db3b0d542fec5a0c1f61d3.svg",
+    "static/media/redesign_long.png": "/redesign-handin/static/media/redesign_long.97388b45defe71151c5a.png",
+    "static/media/desktop.png": "/redesign-handin/static/media/desktop.3154189812676a37a4db.png",
+    "static/media/site.gif": "/redesign-handin/static/media/site.2b49921b98157216c664.gif",
+    "static/media/usability_problems.svg": "/redesign-handin/static/media/usability_problems.eb46a797e92d08d91d3520f061fa2f8d.svg",
+    "static/media/tablet.png": "/redesign-handin/static/media/tablet.43aec77087f90fae0b35.png",
+    "static/media/desktop.svg": "/redesign-handin/static/media/desktop.464087ef16a65119af47fea1d4529699.svg",
+    "static/media/tablet.svg": "/redesign-handin/static/media/tablet.82375ce3b6851311cd1219827c21b5e6.svg",
+    "static/media/interior.jpeg": "/redesign-handin/static/media/interior.e2e05456107a832db5d2.jpeg",
+    "static/media/Bitter-VariableFont_wght.ttf": "/redesign-handin/static/media/Bitter-VariableFont_wght.2079c94d0d6679106bfe.ttf",
+    "static/media/style_guide.svg": "/redesign-handin/static/media/style_guide.e791163fe172599565ff2bab6db1c5dc.svg",
     "index.html": "/redesign-handin/index.html",
-    "main.073c9b0a.css.map": "/redesign-handin/static/css/main.073c9b0a.css.map",
-    "main.3482404f.js.map": "/redesign-handin/static/js/main.3482404f.js.map"
+    "main.bcc25ce8.css.map": "/redesign-handin/static/css/main.bcc25ce8.css.map",
+    "main.f1919f1d.js.map": "/redesign-handin/static/js/main.f1919f1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3482404f.js"
+    "static/css/main.bcc25ce8.css",
+    "static/js/main.f1919f1d.js"
   ]
 }
