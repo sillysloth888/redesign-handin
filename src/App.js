@@ -42,17 +42,19 @@ const App = () => {
             frame={false}
           />
 
-          <p>The same cannot be said for its website. The oversaturated orange color scheme and floating vertical layout is aesthetically unpleasant, and the site faces a laundry list of usability issues that make it difficult to navigate.</p>
+          <p>The same cannot be said for <a href="https://www.trooppvd.com/home">Troop's website</a>. The oversaturated orange color scheme and floating vertical layout is aesthetically unpleasant, and the site faces a laundry list of usability issues that make it difficult to navigate. (Note that the website has changed slightly since I completed the project. Nevertheless, its major usability concerns remain present, even in the new iteration of the site).</p>
 
           <p>Ultimately, the <b>poor usability</b> of Troop's website creates a <b>bad impression</b> and could frustrate and <b>drive away potential customers</b> who might have otherwise reserved a table.</p>
 
-          <p>So, I decided to <b>redesign</b> Troop's homepage to make it <b>more usable and responsive across device sizes</b>, bringing the website in line with the amount of care that was put into the restaurant's interior. In the end, I created an improved design language that could be expanded across the site.</p>
+          <p>So, <b>I chose to redesign Troop's homepage because I felt like—even with my limited UI/UX experience—there were enough glaring usability problems with the website that I would be able drastically improve it</b></p>
+
+          <p>Here is the link to the Troop's original website:  </p>
         </div>
         <div className="project-section">
           <h2 className="small-section-title">research</h2>
-          <h2 className="big-section-title">What makes Troop hard to use?</h2>
+          <h2 className="big-section-title">What makes Troop site hard to use?</h2>
 
-          <p>To build the foundation for an effective redesign, I first identified the specific aspects of the interface that hindered the site's usability. When identifying problems, I specifically thought about usability along the axes of <b>learnability, memorability,</b> and <b>efficiency.</b></p>
+          <p>To build the foundation for an effective redesign, I first identified the specific aspects of the interface that hindered the site's usability.</p>
           
           <ImageSection 
             data={[{id: 0, path: problemsImg}]} 
@@ -60,6 +62,19 @@ const App = () => {
             oversize={true}
             width={"100%"}
           />
+        </div>
+        <div className="project-section">
+          <h2 className="small-section-title">accessibility</h2>
+          <h2 className="big-section-title">Evaluating the Site's Accessibility</h2>
+
+          <p>In addition to the usability problems I identified above, I used <a href="https://wave.webaim.org/">WebAIM WAVE</a> to detect possibile accessibility problems with the site.</p>
+
+          <p>Here was what I found: </p>
+          <ul>
+            <li>In line with my observations, the WAVE tool detected 18 elements with very low contrast</li>
+            <li>The alternatve text for images was also poorly implemented on the site, with 3 images with suspicious alt texts, and 3 images missing alt text altogether</li>
+            <li>On the other hand, the site was fairly navigable using a screen-reader, including 36 ARIA labels.</li>
+          </ul>
         </div>
         <div className="project-section">
           <h2 className="small-section-title">ideation</h2>
@@ -113,23 +128,21 @@ const App = () => {
           <div className="text-block tip-block">
             <p><b>Tip:</b> I personally try to create a Figma Component as soon as I use a design element more than once. This is because there's no easy way to convert a group into a Component instance. If you only use the Component a couple times, you only spent a little extra effort—whereas copying even a slight design change manually across multiple elements can be grueling.</p>
           </div>
-          <div className="inline-section img-and-text">
-            <div className="text-wrapper-left">
-              <h2 className="small-section-title">tablet mockup</h2>
-              <p>Since a tablet is much narrower than a desktop screen, I chose to overlay the text on the splash page on top of the photo rather than leaving them side by side. Similarly, I laid out the event calendar and accent image vertically rather than horizontally.</p>
-            </div>
-            <div className="img-wrapper img-wrapper-right">
+
+          <h2 className="small-section-title">tablet mockup</h2>
+          <p>Since a tablet is much narrower than a desktop screen, I chose to overlay the text on the splash page on top of the photo rather than leaving them side by side. Similarly, I laid out the event calendar and accent image vertically rather than horizontally.</p>
+          <div className="inline-section">
+            <div className="img-wrapper">
               <img src={tabletHifi} />
             </div>
           </div>
-          <div className="inline-section img-and-text">
-            <div className="text-wrapper-left">
-              <h2 className="small-section-title">mobile mockup</h2>
-              <p>There's even less space on a phone screen, so I decided to overlay the restaurant title directly over the splash image. I moved the info that used to be available below the order/reserve buttons into an "Hours & Info" overlay found on the navbar.</p>
 
-              <p>As a result, I also removed the gray footer, as all the information it contained was now always accessible via the "Hours & Info" overlay.</p>
-            </div>
-            <div className="img-wrapper img-wrapper-right">
+          <h2 className="small-section-title">mobile mockup</h2>
+          <p>There's even less space on a phone screen, so I decided to overlay the restaurant title directly over the splash image. I moved the info that used to be available below the order/reserve buttons into an "Hours & Info" overlay found on the navbar.</p>
+
+          <p>As a result, I also removed the gray footer, as all the information it contained was now always accessible via the "Hours & Info" overlay.</p>
+          <div className="inline-section">
+            <div className="img-wrapper">
               <img src={mobileHifi} />
             </div>
           </div>
