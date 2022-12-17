@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/redesign-handin/static/css/main.073c9b0a.css",
+    "main.js": "/redesign-handin/static/js/main.3482404f.js",
+    "static/media/logo.svg": "/redesign-handin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/redesign-handin/index.html",
+    "main.073c9b0a.css.map": "/redesign-handin/static/css/main.073c9b0a.css.map",
+    "main.3482404f.js.map": "/redesign-handin/static/js/main.3482404f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3482404f.js"
+  ]
+}
